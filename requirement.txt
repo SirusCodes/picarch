@@ -1,0 +1,4 @@
+psycopg2==2.9.10
+setuptools==77.0.3
+opencv-python==4.11.0.86
+insightface==0.7.3
