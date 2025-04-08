@@ -1,6 +1,6 @@
 # Picarch
 
-Picarch is a Python project for face detection and image similarity search using insightface and PostgreSQL. The project detects faces in images, encodes them, stores the embeddings along with image paths in a PostgreSQL database, and allows searching for similar images.
+Picarch is a Python project for face detection and image similarity search using [insightface](https://insightface.ai/) and PostgreSQL. The project detects faces in images, encodes them, stores the embeddings along with image paths in a PostgreSQL database, and allows searching for similar images.
 
 ## Inspiration
 
@@ -58,6 +58,9 @@ Recursively search a directory for images, encode faces, and store the embedding
 ```bash
 python main.py encode <path_to_images>
 ```
+
+> [!NOTE]
+> This will take time. I ran it overnight.
 
 ### 2. Search for a Person
 
